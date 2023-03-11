@@ -1,4 +1,4 @@
-package main
+package section1
 
 //func main() {
 //m := map[string]int{"apple": 100, "banana": 200}

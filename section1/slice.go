@@ -1,4 +1,4 @@
-package main
+package section1
 
 //func main() {
 //n := []int{1, 2, 3, 4, 5, 6}

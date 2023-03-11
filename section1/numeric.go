@@ -1,4 +1,4 @@
-package main
+package section1
 
 //func main() {
 //var (

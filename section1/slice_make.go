@@ -1,4 +1,4 @@
-package main
+package section1
 
 //func main() {
 //n := make([]int, 3, 5)
