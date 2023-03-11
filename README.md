@@ -1,0 +1,2 @@
+# Go_language_practice
+Go言語の練習リポジトリになります
