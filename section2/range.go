@@ -4,15 +4,15 @@ package main
 //
 //func main() {
 //	l := []string{"python", "Go", "java"}
-
-//for i := 0; i < len(l); i++ {
-//	fmt.Println(i, l[i])
-//}
+//	//
+//	for i := 0; i < len(l); i++ {
+//		fmt.Println(i, l[i])
+//	}
 //
-//for i, v := range l {
-//	fmt.Println(i, v)
-//}
-
+//	for i, v := range l {
+//		fmt.Println(i, v)
+//	}
+//	//
 //	for _, v := range l {
 //		fmt.Println(v)
 //	}
