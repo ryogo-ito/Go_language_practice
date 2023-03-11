@@ -1,4 +1,4 @@
-package main
+package section1
 
 //func add(x int, y int) int {
 //	return x + y
