@@ -7,7 +7,9 @@ import (
 )
 
 func main() {
-	v := section4.Vertex{3, 2}
+	v := section4.New(3, 4)
+
+	fmt.Printf("%p\n", v)
 
 	v.Scale(10)
 	fmt.Println(v.Area())
