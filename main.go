@@ -3,17 +3,14 @@ package main
 import (
 	"fmt"
 
-	"Go_language_practice/section3"
+	"Go_language_practice/section4"
 )
 
 func main() {
-	v := section3.Vertex{1, 2, "test"}
+	v := section4.New(3, 4, 5)
 
-	fmt.Println("関数実行前", v)
-	section3.ChangeVertex(v)
-	fmt.Println("関数実行後", v)
+	fmt.Printf("%p\n", v)
 
-	v2 := &section3.Vertex{1, 2, "test"}
-	section3.ChangeVertex2(v2)
-	fmt.Println(v2)
+	v.Scale3D(10)
+	fmt.Println(v.Area3D())
 }
