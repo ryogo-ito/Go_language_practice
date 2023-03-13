@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	v := section4.MyInt(10)
-
-	fmt.Println(v.Double())
+	var mike section4.Human = &section4.Person{"Mike"}
+	section4.DriveCar(mike)
+	fmt.Println(mike)
 }
