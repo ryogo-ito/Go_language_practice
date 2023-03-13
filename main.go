@@ -7,10 +7,7 @@ import (
 )
 
 func main() {
-	v := section4.New(3, 4, 5)
+	v := section4.MyInt(10)
 
-	fmt.Printf("%p\n", v)
-
-	v.Scale3D(10)
-	fmt.Println(v.Area3D())
+	fmt.Println(v.Double())
 }
