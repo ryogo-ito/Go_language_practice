@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	mike := section4.Person2{"Mike", 26}
-	fmt.Println(mike)
+	if err := section4.MyFunc(); err != nil {
+		fmt.Println(err)
+	}
 }
