@@ -1,9 +1,8 @@
 package main
 
-import "fmt"
+import "Go_language_practice/section5"
 
 func main() {
-	var mike UserError = New("Mike", 200)
-
-	fmt.Println(mike)
+	s := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	section5.Average(s)
 }
