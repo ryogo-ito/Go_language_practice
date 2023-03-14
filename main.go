@@ -1,16 +1,9 @@
 package main
 
-import (
-	"fmt"
-
-	"Go_language_practice/section4"
-)
+import "fmt"
 
 func main() {
-	v := section4.New(3, 4, 5)
+	var mike UserError = New("Mike", 200)
 
-	fmt.Printf("%p\n", v)
-
-	v.Scale3D(10)
-	fmt.Println(v.Area3D())
+	fmt.Println(mike)
 }
