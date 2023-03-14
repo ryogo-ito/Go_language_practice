@@ -1,13 +1,9 @@
 package main
 
-import (
-	"fmt"
-
-	"Go_language_practice/section4"
-)
+import "fmt"
 
 func main() {
-	if err := section4.MyFunc(); err != nil {
-		fmt.Println(err)
-	}
+	var mike UserError = New("Mike", 200)
+
+	fmt.Println(mike)
 }
